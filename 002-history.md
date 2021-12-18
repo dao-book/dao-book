@@ -177,6 +177,8 @@ Peter PanはMolochに入会を拒絶される半年ほど前にEth Sanfranciso�
 
 MolochDAOとMetacartelからはその後も多くのDAOフレームワークが生まれただけでなく、彼らのネットワークから次世代のDAOを引っ張っていく人材も多く輩出されました。「[全てのDAOは Coopahtroopaに通じる](https://coopahtroopa.mirror.xyz/5vTIKBRzMpVAiNyc7CnABXjh3ToJrjQOnOdkwqvb3l8)」と豪語し、８０以上のDAOに関わっていると言われるCooper Turley もMolochDAO出身です。
 
+そしてDAO管理の経験に長けていることから、DAOの一部分をサービス化した「サービスDAO」のジャンルで多くのDAOを生み出しています。
+
 ## ２０２０： Defi Summer とフェアローンチ
 
 ### Defi三種の神器
