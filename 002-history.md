@@ -324,22 +324,50 @@ Uniswapのような分散取引所の場合、流動性が低くなると各ト�
 
 [TODO: https://cointelegraph.com/news/concern-as-uniswap-backed-defi-education-fund-dumps-10m-worth-of-uni Uniswapの助成金の疑わしい使われ方についても触れる]
 
+### Defi 世代のDAOツール
+
 
 
 ## ２０２１：Jpeg Summer とコレクターDAO
 
-### WhaleDAO
+### NFT の歴史
 
-[TODO:]
+- https://blog.portion.io/the-history-of-nfts-how-they-got-started/
+- RarePepe
+- CyrptoPunks
+- ENS
+- CryoptoKitties
+- OpenSea/SuperRare
+- Rarible DAO
+- NBATopshot
+- Beeple
+- Pfp (Bored Ape, CryptoCorgi, RescueTheMoonCat, etc)
+- Loot
 
-### Beeple とBEP20
+### NFT DAO の種類
 
-[TODO:]
+#### Collector DAO (PleasrDAO, FlamingoDAO, ConsitutionDAO)
 
-### PleasrDAO
+https://members.delphidigital.io/reports/pleasrdao-collecting-internet-culture-acquiring-the-wu-tang-clan-album-snowden-doge-nft-and-art-dao-operations/
 
-[TODO:]
+### DAO by NFT issuer
 
-### Loot
+- ENS
+- NounsDAO https://themassage.jp/archives/15208
 
-[TODO:]
+### LAO (FlamingoDAO)
+
+- https://medium.com/@FLAMINGODAO/- flamingo-dao-an-nft-collective-1de9c85bbe06
+
+#### Social Token (WhaleDAO)
+
+- https://medium.com/whale-community/the-whale-dao-e3f4dc736a5b
+- https://medium.com/whale-community/
+- https://www.coindesk.com/markets/2021/03/14/social-tokens-crash-after-reported-hack-at-roll/
+
+#### Fractionisation (Doge NFT, Punks, meebits)
+
+- https://decrypt.co/68604/50-cryptopunks-nfts-go-fractional-in-new-collection
+- https://medium.com/meebitsdao/introducing-meebitsdao-91bcef413c02
+- https://dappradar.com/nft/fractionalized
+- https://hedge.guide/feature/nft-collateral-loan-bc202108.html
