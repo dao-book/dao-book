@@ -303,9 +303,15 @@ YFIは基本的にはCOMPと同じようなガバナンストークンなので�
 
 ![](./assets/003-yfistats.png)
 
-ガバナンスの形態はすごくシンプルなものでまず最初にガバナンスフォーラムで
+ガバナンスの形態はすごくシンプルなもので、まず最初にガバナンスフォーラムで議題を提案したあとsnapshotを使ったオフチェーン投票。議決が通ればMultisigを通して変更が行われるというものです。
 
 [TODO: Confirm the governance step from Facu]
+
+開始から1年半ほどで16のYIP（Yearn Improvoment Proposal）が出ています。[配当から自社トークン買いへのポリシー変更](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929)といった結構大幅なことも決められたのがすごいですね。
+
+最新の議案では「[YIP-65: Evolving YFI Tokenomics](https://gov.yearn.finance/t/yip-65-evolving-yfi-tokenomics/11994) 」でより複雑なトークンモデルへの変更に関して活発に議論がなされています。
+
+そしてこれが一番すごいことなのですがYearnを作ってYFIトークンを立ち上げたAndre自身はガバナンスにほとんど関与していないということです。彼のガバナンスフォーラムのプロファイルを見てみると[2020年の9月を最後に全く投稿していません](https://gov.yearn.finance/u/andre.cronje/summary)。Andreはどちらかと言えば０を１にする能力に非常に長けた人で、次々と新しいプロダクトのアイデアを打ち出してはその実験を繰り返すということを続けています。創業者がトークンローンチ後３ヶ月でガバナンスから退いても金融機関顔負けの収益と、スタートアップ顔負けの組織が回っているDAO成功例の筆頭といって良いでしょう。
 
 ### SushiSwapバンパイアアタックと＄UNIトークン
 
