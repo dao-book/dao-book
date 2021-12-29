@@ -12,10 +12,17 @@
 
 Decentralized Autonomous Organisation の起源ですが、Ethereumの創始者である[Vitalik Buterlin が２０１３年ごろに作り上げた言葉だと自ら述べています](https://medium.com/@VitalikButerin/i-invented-the-term-in-2013-and-daniel-larimer-came-up-with-dacs-s-organization-corporation-a-ef86db1524d5)。ただそれより少し前にもBitshareという投票システムなどのあるブロックチェーンシステムを作り上げた（EOSという他のブロックチェーンシステムを創設したことでも有名である）Dan Larimerが提唱したDecentralised Autonomous Corporation(DAC)という言葉もあるし、[BitcoinそのものがDAOの起源であり、Bitcoin は株式を代替するものだと主張する人](https://bitcoinmagazine.com/culture/why-bitcoin-network-is-original-dao)もいます。
 
-[「DAOs, DACs, DAs and More: An Incomplete Terminology Guide」](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/
-)というVitalik Buterinによって2014年6月には以下のような定義が載っています。
 
-[TODO: DAOの定義]
+[DAC(Decentralised Autonomous Corporationを始めるには)](https://bitcoinmagazine.com/technical/bootstrapping-a-decentralized-autonomous-corporation-part-i-1379644274)という記事の中で、当時若干19歳だったVitalikが以下のように述べています。
+
+```
+What if, with the power of modern information technology, we can encode the mission statement into code; that is, create an inviolable contract that generates revenue, pays people to perform some function, and finds hardware for itself to run on, all without any need for top-down human direction?
+
+もし現在のモダンなITを活用することでミッションステートメントがをプログラムに落とし込むことができればどうなるだろう？変更不可能な契約プログラムが自ら収入をあげ、ある一定の行為をした人に支払いを行い、プログラムを実行するためのハードウェアを自ら見つけ出す。それを人間のトップダウン的な指示が必要なく行うのです。
+
+```
+
+結局こういった込み入ったことをするには当時のBitcoinには制約があるし、目的ごとにBitcoinをフォークして異なるネットワークを立ち上げるより、スマートコントラクトを用いてより汎用的なプログラムがかけるEthereumの創設につながります。
 
 Vitalikらが立ち上げたイーサリアムは2015年の夏にメインネットローンチしたのですが、著者がイーサリアムに関わりはじめた2016年の初めごろのethereum.orgのウェブサイトにはスマートコントラクトのチュートリアルとして、独自トークン、クラウドセールと並んでDAOの作り方が載っていました。
 
@@ -305,6 +312,10 @@ YFIは基本的にはCOMPと同じようなガバナンストークンなので�
 
 ガバナンスの形態はすごくシンプルなもので、まず最初にガバナンスフォーラムで議題を提案したあとsnapshotを使ったオフチェーン投票。議決が通ればMultisigを通して変更が行われるというものです。
 
+Snapshotには誰でも投票できるわけではなく、ガバナンスプールにFYIトークンをステークする必要があります。そしてプロポーザルが通過するためにはステークトークンの20％の投票が必要で、そのうちの過半数の賛同票で通過します。Compoundのような代理人システムはなく、保持トークン量に応じた投票権があります。
+
+Snapshotの結果の後、Multisigに決議がうつされ、9人中6人が合意すれば変更が反映されます。
+
 [TODO: Confirm the governance step from Facu]
 
 開始から1年半ほどで16のYIP（Yearn Improvoment Proposal）が出ています。[配当から自社トークン買いへのポリシー変更](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929)といった結構大幅なことも決められたのがすごいですね。
@@ -342,27 +353,49 @@ SushiSwapの場合、Chef Nomi氏がユニスワップユーザーへ提示し�
 ることで手数料収入とともに、トークンを取り戻すことができます。
 ```
 
-（TODO: もっと詳しくUniswapのヴァンパイア攻撃の影響をかく https://fluidfi.ch/vampire-attacks-defi/ ）
-
-
 Uniswapのような分散取引所の場合、流動性が低くなると各トークンの換算率が悪くなるため、すぐに他のサービスに客足が遠のいてしまいます。そのためUniswapは対抗策としてのトークンローンチを迫られます。
 
-9月16日に発表された「Introducing UNI」という記事](https://uniswap.org/blog/uni)では今までUniswapを使った人の全てにトークンを配布するという「レトロアクティブエアドロップ」が初めて大々的に行われたことでも知られています。このため25万人にも及ぶユーザーが最低でも400 UNI受け取ることになりました。配布直後は4ドル前後で価格が推移していたのですが1時は40ドルをこしました。そのためこれらのユーザーが1600~16000ドル相当のトークンを手にしたことになります。
+9月16日に発表された[Introducing UNI」という記事](https://uniswap.org/blog/uni)では、今までUniswapを使った人の全てにトークンを配布するという「レトロアクティブエアドロップ」が初めて大々的に行われたことでも知られています。このため25万人にも及ぶユーザーが最低でも400 UNI受け取ることになりました。配布直後は4ドル前後で価格が推移していたのですが1時は40ドルをこしました。そのためこれらのユーザーが1600~16000ドル相当のトークンを手にしたことになります。
 
 [トルコのある大学の授業ではブロックチェーンの授業でUniswapを使うことが課題になっていたため、この課題をこなした生徒は年間授業料の半分近くをエアドロップで受け取ったというニュースもありました](https://cointelegraph.com/news/meet-turkeys-unexpected-winners-of-uniswaps-uni-giveaway)。
 
 
-[TODO: Uniswapのガバナンスについてもっと詳しく]
+Uniswapのガバナンスですが、誰もがどんなトークンでもリストできるという性質上、手数料率以外は特に変更すべきスマートコントラクトパラメターがありません。過去に２回の大幅なアップグレードが行われたのですが、それらは全て新規にスマートコントラクトをデブロイし、流動性の移動は各ユーザーに任された状態になっています。イーサリアム以外の他のチェーンにUniswapをデプロイしようという提案も過去に出されて可決されていますが投票の結果が拘束力を持つわけではなく、あくまで
+なのでUniswapのプロポーザルの大部分はエコシステムへの助成金です。
+ 
+ [messari.ioが作成したDefiトップ３助成金プログラムチャート](https://messari.io/article/blitzscaling-daos-rethinking-spending-for-decentralized-organizations?referrer=asset:uniswap)によるとUniswapがダントツの170万ドルを拠出しています。
 
-現在[Uniswap DAOが有する資産は30億ドル近くあり](https://deepdao.io/#/deepdao/dao/4f466e08-9125-40fd-ba15-77552dec7c65/topLevel)、イーサリアム上にあるDAOで最大の規模です。
+![](./assets/003-grant-spending.png)
 
-[TODO: https://cointelegraph.com/news/concern-as-uniswap-backed-defi-education-fund-dumps-10m-worth-of-uni Uniswapの助成金の疑わしい使われ方についても触れる]
+そしてYarnなどと違いUniswapは現在プロトコル手数料を徴収していないため、資産の大部分はUNIトークンになっています。これによって助成金をあげればあげるほど、受け取り先が現金化して使うためにUNIトークンに対する売り圧力がかかるというジレンマも抱えています。
+
+[アメリカの「Defi教育基金」に100万UNIトークンを助成するという提案が通ったのですが、４〜5年に渡って現金化するという約束だったにもかかわらず半額近く（1000万ドル相当）をUSDCステーブルトークンに売ったとして問題に上がりました](https://cointelegraph.com/news/concern-as-uniswap-backed-defi-education-fund-dumps-10m-worth-of-uni)。
+
+
+またアナリティクス会社のFlipsideが[「助成金を預けた利子をもとに（助成金を使い込まずに）コミュニティアナリティクスを作りたい」というプロポーザルを出した](https://app.uniswap.org/#/vote/1/2)のですが、競合であるDune Analyticsに「なんで自分の会社の製品の開発にUniswapの助成金を使おうとしているんだ」と批判を受け、僅差で通ったにもかかわらず辞退するに至っています。
+
+![](./assets/003-unianalytics.png)
+
+([Dune Analyticsがコミュニティメンバーに否決投票を呼びかけるツイート](https://twitter.com/DuneAnalytics/status/1428250340139356164))
+
+[ガバナンス可視化ツールのTally](https://www.withtally.com/governance/uniswap)にあるトップ投票者の一覧を見てみましょう。
+
+![](./assets/003-unitopvoters.png)
+
+トップにCompoundと同じくa16zというベンチャーキャピタルが入っていますが、3位にグラントプログラム、5位にはあの物議を醸し出したDefi Education fund の議案提出者であるHarverd Law Blockchainがいます。そして6位のKenneth NgはEthereum Foundationでずっと助成金を担当した人で、7位のベンチャーキャピタリストであるJesse Waldenとともに[助成金プログラムを提出](https://www.withtally.com/governance/uniswap/proposal/3)しています。
 
 ### Defi 世代のDAOツール
 
-Defiによって多くのプロトコルに大量の手数料収入が入り、そしてガバナンストークンがDex等で高価格で取引されることにより、Defi DAOに大変な額の資産が集まることになりました。多くのプロジェクトのガバナンスのフォーカスは２つあります。まず一点はいかにプロトコルのコアなパラメター（MakerDAOで言えば担保率など）や新しい取り扱い通貨の是非をトークン投票によって決めるか。そして二点目は
+Defiによって多くのプロトコルに大量の手数料収入が入り、そしてガバナンストークンがDex等で高価格で取引されることにより、Defi DAOに大変な額の資産が集まることになりました。多くのプロジェクトのガバナンスのフォーカスは２つあります。まず一点はいかにプロトコルのコアなパラメター（MakerDAOで言えば担保率など）や新しい取り扱い通貨の是非をトークン投票によって決めるか。そして二点目はいかに自分たちのエコシステムに助成金を分配するかです。
 
+Defiで多く使われているDAOツールはDAO暗黒期に流行った全ての機能を満載されたフレームワークではなく、個別の機能に特化された以下のように組み合わせて使うことが多いです。
 
+- Gnosis Safe = 予測市場であるGnosisプロジェクトが自らのICOを行なった時に多額の資金を貯めても安心なように設計されたマルチシグウォレット）
+- Compound Alpha/Bravo = Compoundガバナンスの投票、及び投票人委任を担当するスマートコントラクト)
+- Snapshot= Dexの一つであるBalancerプロジェクトが作りだしたオフチェーン投票ツール
+- Coordinape = Yearnが作り出した同僚評価アプリ
+
+注目するべき点としてはGnosis Safeを除いてはDefiプロジェクト自身が自らの問題を解決するために自作したツールが人気を呼び、他のプロジェクトでも使われるようになっているということでしょう。
 
 ## ２０２１：Jpeg Summer とコレクターDAO
 
