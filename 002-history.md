@@ -96,9 +96,9 @@ Colonyを使用しているプロジェクトはまだ少ないですが、ク�
 
 Aragonはスペイン出身の若き起業家Luis CuendeとJorge Izquierdoによって2017年に[ANTトークンセールを行い開始15分で2千5百万ドルを調達](https://cointelegraph.com/news/biggest-ever-ico-jackpot-netted-by-ethereum-based-aragon-despite-bad-actor)。
 
-[TODO:  Aragon機能の紹介をしているhttps://fafa0911.com/cryptocurrency-ant の要約]
+![](./assets/003-aragon.png)
 
-自身のプロトコル開発の分散化も積極的に推し進め、Aragon One, One Hive, Aragon Blackといった複数のチームが行なっています。
+DAO作成のためのフレームワークであるGovern、他のプロジェクトへの統合するためのClient、オンチェーン裁判所であるCourtなどなど盛り沢山です。自身のプロトコル開発の分散化も積極的に推し進め、Aragon One, One Hive, Aragon Blackといった複数のチームが行なっています。
 
 著者自身はテストネットバージョンを使ったことがあるのですが、結構機能がてんこ盛りで、使いこなすには時間がかかるという印象を受けました。スマートコントラクトの部品化も進んでおり、もしDAO機能をプロトコルに密に組み込みたいという企業には向いているかもしれません。
 
