@@ -10,7 +10,7 @@
 
 ## DAOの起源
 
-Decentralized Autonomous Organisation の起源ですが、Ethereumの創始者である[Vitalik Buterlin が２０１３年ごろに作り上げた言葉だと自ら述べています](https://medium.com/@VitalikButerin/i-invented-the-term-in-2013-and-daniel-larimer-came-up-with-dacs-s-organization-corporation-a-ef86db1524d5)。ただそれより少し前にもBitshareという投票システムなどのあるブロックチェーンシステムを作り上げた（EOSという他のブロックチェーンシステムを創設したことでも有名である）Dan Larimerが提唱したDecentralised Autonomous Corporation(DAC)という言葉もあるし、[BitcoinそのものがDAOの起源であり、Bitcoin は株式を代替するものだと主張する人](https://bitcoinmagazine.com/culture/why-bitcoin-network-is-original-dao)もいます。
+Decentralized Autonomous Organisation の起源ですが、Ethereumの創始者である[Vitalik Buterlin が２０１３年ごろに作り上げた言葉だと自ら述べています](https://medium.com/@VitalikButerin/i-invented-the-term-in-2013-and-daniel-larimer-came-up-with-dacs-s-organization-corporation-a-ef86db1524d5)。ただそれより少し前にもBitshareという投票システムなどのあるブロックチェーンシステムを作り上げた（EOSという他のブロックチェーンシステムを創設したことでも有名である）Dan Larimerが提唱したDecentralised Autonomous Corporation(DAC)という言葉もあるし、[BitcoinそのものがDAOの起源であり、Bitcoin は株式を代替するものだと主張する人](https://bitcoinmagazine.com/culture/why-bitcoin-network-is-original-dao)もいます。
 
 
 [DAC(Decentralised Autonomous Corporationを始めるには)](https://bitcoinmagazine.com/technical/bootstrapping-a-decentralized-autonomous-corporation-part-i-1379644274)という記事の中で、当時若干19歳だったVitalikが以下のように述べています。
@@ -114,7 +114,7 @@ DAOStackはイスラエル出身の起業家[Matan Field](https://www.linkedin.c
 DAOStackの目玉としては「ホログラフィックコンセンサス」という少し難しそうなコンセプトがあります。
 
 これはたくさんあるプロポーザルの中からいかに良質の提案を拾い出すかを目的に設計されたものです。
-具体的な説明は[「DAOstackを難しい用語抜きで説明してみた」](https://medium.com/daostack/daostack%E3%82%92%E9%9B%A3%E3%81%97%E3%81%84%E7%94%A8%E8%AA%9E%E6%8A%9C%E3%81%8D%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F-60d8d334a339) の記事を引用します。
+具体的な説明は[「DAOstackを難しい用語抜きで説明してみた」](https://medium.com/daostack/daostack%E3%82%92%E9%9B%A3%E3%81%97%E3%81%84%E7%94%A8%E8%AA%9E%E6%8A%9C%E3%81%8D%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F-60d8d334a339) の記事を引用します。
 
 ```
 ここで、GENトークンが搭乗します。GENはDAOstackエコシステム内のアテンション（注意喚起）トークンとして機能します。GENでは、議決権を買うことも、投票することもできませんが、提案が集団や有権者（レピュテーション保持者）の歓心を得るべきかどうかステーク（投票）できます。レピュテーション保持者が合格した提案にステークすると、より多くのGENを報酬として受け取ります。あなたが落選した提案にステークした場合、あなたはGENを失います。
@@ -196,11 +196,11 @@ MakerDAOはアメリカ米ドルと同じ価値を持つようペッグされる
 
 基本的にはイーサのような他の通貨をスマートコントラクト内に担保することでその担保の一定内に収まる額のDAIというトークンを発行します。担保された通貨が元本割れしないように必要な比率を割ると誰もがその担保分を清算することができます。DAIの担保タイプや担保比率、そしてDai Stability Rateという比率はMakerDAOのガバナンストークンであるMKRトークン保持者による投票によって維持されています。
 
-DAIのようなフィアット通貨に価格がペッグされるトークンのことをステーブルトークンと言います。[defi pulse](https://defipulse.com/usd)のステーブルトークンの層流通量チャートを見ると2020の４月まではほぼ横ばいだったのですが、それ以降上昇を果たし、執筆時（2021年12月）では１０７０億ドルの規模にまで成長しています。
+DAIのようなフィアット通貨に価格がペッグされるトークンのことをステーブルトークンと言います。[defi pulse](https://defipulse.com/usd)のステーブルトークンの総流通量チャートを見ると2020の４月まではほぼ横ばいだったのですが、それ以降上昇を果たし、執筆時（2021年12月）では１０７０億ドルの規模にまで成長しています。
 
 ![](./assets/003-defidollars.png)
 
-DAI以外にもUSDT,USDCといったステーブルトークンがあるのですがこれらはブロックチェーン外にある金融資産によって価値が担保されているので担保の資産管理団体の与信に不安があったり、政府機関に差し押さえなどされるリスクがあります。それに比べステーブルトークンは担保額が全てイーサリアム上にあるため、リアルタイムに担保額がわかる透明性がある上、差押リスクは比較的低くなります。
+DAI以外にもUSDT,USDCといったステーブルトークンがあるのですがこれらはブロックチェーン外にある金融資産によって価値が担保されているので、担保の資産管理団体の与信に不安があったり、政府機関に差し押さえなどされるリスクがあります。それに比べステーブルトークンは担保額が全てイーサリアム上にあるため、リアルタイムに担保額がわかる透明性がある上、差押リスクは比較的低くなります。
 
 短所としてはスマートコントラクトで常にドルの価値と一定に保つというのは非常に難しく、担保の急激な価格変動とガスの高騰によって清算ボットがうまく可能せず、ペッグが大幅に崩れるといった事件もありました。その時はMKRトークンを大量発行によるガバナンストークン価値の希薄化というペナルティをトークンホルダーが経ています。そしてそれまでは担保資産の大半がイーサだったのですがUSDC配分を増やしたため、金融機関にUSDCが差し押さえられた時に共倒れのリスクが上昇しました。DAIにとって変わるべく数々のスマートコントラクトベースのステーブルプロジェクトが
 
@@ -210,20 +210,20 @@ DAI以外にもUSDT,USDCといったステーブルトークンがあるので�
 ![](./assets/003-defilending.png)
 
 
-ステーブルコイン、貸付サービスと同様にDefi三種の神器の一角をなすのがDex（Decentralised Exchange）、その中でもUniswap(2018/11)は最も人気のあるサービスです。 CoinbaseやBinanceといった暗号通貨取引所はCex (Centralised Exchange)と呼ばれます。基本的にはユーザーは自分の資産を取引所に保管されて（Custodial）います。ドルや円といったフィアット通貨から暗号資産が購入できるといった利便性がある反面、顧客の多額の資産が集まっているため常にハッキングの標的となっています。(Dex)Decentralised Exchangeは反面、取引が全てスマートコントラクトを経由して自分のウォレットから行われるため、ハッキングリスクが少ない上他のサービスから直接統合可能です。Uniswap以前にもEtherDelta、0xといったサービスがあったのですが、Uniswapは「x*y=k」という簡単な数式に基づいてスマートコントラクト上にプールされた資金（LP＝Liquidity Provider）から簡単に交換できる上、誰もがどんなトークンの交換ペアをLPとして提供できることでPermisionlessな取引所を形成しています。
+ステーブルコイン、貸付サービスと同様にDefi三種の神器の一角をなすのがDex（Decentralised Exchange）、その中でもUniswap(2018/11)は最も人気のあるサービスです。 CoinbaseやBinanceといった暗号通貨取引所はCex (Centralised Exchange)と呼ばれます。基本的にはユーザーは自分の資産を取引所に保管されて（Custodial）います。ドルや円といったフィアット通貨から暗号資産が購入できるといった利便性がある反面、顧客の多額の資産が集まっているため常にハッキングの標的となっています。Dex(Decentralised Exchange )は反面、取引が全てスマートコントラクトを経由して自分のウォレットから行われるため、ハッキングリスクが少ない上、他のサービスから直接統合可能です。Uniswap以前にもEtherDelta、0xといったサービスがあったのですが、Uniswapは「x*y=k」という簡単な数式に基づいてスマートコントラクト上にプールされた流動性資金（以降LP＝Liquidity Provider）と簡単に交換できる上、誰もがどんなトークンの交換ペアをLPとして提供できることでPermisionlessな取引所を形成しています。
 
 「板取引」という従来の取引所画面とUniswapの画面を比べてみると格段にシンプルなUIです。そしてわざわざ取引所にログインせずともウォレットを接続するだけですぐに使えるのも魅力です。
 
 ![](./assets/003-coinbaseuni.png)
 
 Uniswap、DaiやCompoudといったサービスに資金供給することで高い利率やスワップ手数料を稼ぐことができるようになり、ICOといった投機目的以外でイーサリアムを使う人たちが徐々に増えてきました。
-そしてUniswapの「誰もがどんなペアでも交換できる」仕組みを利用して、のちのガバナンストークンと言われるものの基礎である「イールドファーミング」が生まれました。
+そしてUniswapの「誰もがどんなペアでも交換できる」仕組みを利用して、のちに出てくるガバナンストークンの取得に使われる「イールドファーミング」が生まれました。
 
 ### イールドファーミングとガバナンストークン
 
-ステーブルトークンの一種で、ユーティリティトークンであるSNXを担保とすることで合成通貨を作るSynthetixというサービスがあります。[元々はHeaven](https://www.owl-coin.com/coins/havven) というプロジェクト名でICOを行い2018年3月に資金調達をしたのですが、11月に現在の名前に変更しました。
+SNXトークンを担保とすることで合成通貨を作るSynthetixというサービスがあります。[元々はHeaven](https://www.owl-coin.com/coins/havven) というプロジェクト名でICOを行い、2018年3月に資金調達をしたのですが、11月に現在の名前に変更しました。
 
-もともとは合成通貨の担保としての役割を持っていたSNXですが、その合成通貨を大量発行して流動性を高めるには大量の担保が必要になります。ユーザに担保（Defiではステーキングの方が一般的に用いられます）してもらった対価としてSNXトークンを配布するよう[プロトコルの変更を求めた](https://blog.synthetix.io/uniswap-seth-pool-incentives/)のがイールドファーミングの走りとなります。2019年の7月のことになります。このイールドファーミングが功を奏し、いっときは[Uniswap内で最もステーキされたプール](https://www.coindesk.com/learn/what-is-yield-farming-the-rocket-fuel-of-defi-explained)になりました。
+もともとは合成通貨の担保としての役割を持っていたSNXですが、その合成通貨を大量発行して流動性を高めるには大量の担保が必要になります。ユーザに担保（Defiではステーキングの方が一般的に用いられます）してもらった対価としてSNXトークンを配布するよう[プロトコルの変更を求めた](https://blog.synthetix.io/uniswap-seth-pool-incentives/)のがイールドファーミングの走りとなります。2019年の7月のことになります。このイールドファーミングが功を奏し、一時は[Uniswap内で最もステーキされたプール](https://www.coindesk.com/learn/what-is-yield-farming-the-rocket-fuel-of-defi-explained)になりました。
 
 他のDefiプロジェクトがSynthetixのようなイールドファーミングを導入したのはそれから一年ほど遅れた2020年春、前述したCompound が6月にCOMPトークンとイールドファームを始めたのを皮切りにBalancer やCurveといったその他のDexもガバナンストークンのローンチとイールドファーミングを開始しました。
 
@@ -242,11 +242,11 @@ COMP保有者がCompoundの将来を決定するガバナンスシステムで�
 COMPはあくまでもCompoundのガバナンストークンです。用途はガバナンス参加のみで、投機を促すような機能は組み込まれていません。そもそも資金調達のためのトークンですらなく、発行側は対価を得ず、4年間でゆるやかに、全てのユーザーに配布する予定です。
 ```
 
-「発行側は対価を得ず」と書かれていますが、[コインデスクの記事によると](https://www.coindesk.com/markets/2020/06/17/first-mover-compound-has-been-a-defi-darling-its-new-token-is-priced-accordingly/)残りの68％のうちの24％は開発元であるCompound Labs Inc 社の株主にすでに配布されており、22％分は創業者や開発チーム達に4年かけて配布されているとあります。なので発行元である会社の株主達が配布時点でUniswapなどのDexに自分で流動性を追加することで手数料を得たり、単に売り抜けることも可能だったはずです。
+「発行側は対価を得ず」と書かれていますが、[コインデスクの記事によると](https://www.coindesk.com/markets/2020/06/17/first-mover-compound-has-been-a-defi-darling-its-new-token-is-priced-accordingly/)残りの68％のうちの24％は開発元であるCompound Labs Inc 社の株主にすでに配布されており、22％分は創業者や開発チーム達に4年かけて配布されているとあります。なので発行元である会社の株主達が配布時点でUniswapなどのDexに自分で流動性を追加することで手数料を得たり、単に売り抜けることも可能です。
 
 実際のガバナンストークンの使用方法ですが、COMPトークンホルダーは自分の投票権を自分自身、あるいはどのイーサリアムアドレスに移譲することができます。
 
-プロポーザルを作るには6万5千 COMP必要ですが、100 トークンをロックすれば誰もが匿名プロポーザルを作り、その提案に対して6万5千トークンが委譲されると通常のプロポーザルになります。
+プロポーザルを作るには6万5千 COMP必要ですが、100 トークンをロックすれば誰もが匿名プロポーザルを作り、その提案に対して6万5千トークンが委譲されると通常のプロポーザルになります。
 
 プロポーザルが作られると2日のレビューピリオドを経て３日間の投票期間に入ります。案が可決されるためには最低でも40万票必要で、２日間のタイムロックの後でプロトコルの変更に適応されます。なのでプロポーザルが提案から実行に移される間トータル一週間かかります。
 
@@ -310,17 +310,17 @@ YFIは基本的にはCOMPと同じようなガバナンストークンなので�
 
 ![](./assets/003-yfistats.png)
 
-ガバナンスの形態はすごくシンプルなもので、まず最初にガバナンスフォーラムで議題を提案したあとsnapshotを使ったオフチェーン投票。議決が通ればMultisigを通して変更が行われるというものです。
 
-Snapshotには誰でも投票できるわけではなく、ガバナンスプールにFYIトークンをステークする必要があります。そしてプロポーザルが通過するためにはステークトークンの20％の投票が必要で、そのうちの過半数の賛同票で通過します。Compoundのような代理人システムはなく、保持トークン量に応じた投票権があります。
+ガバナンスの形態はSnapshotを利用したオフチェーン投票とSnapshotの結果の後、Multisigに決議がうつされ、9人中6人が合意すれば変更が反映されます。
 
-Snapshotの結果の後、Multisigに決議がうつされ、9人中6人が合意すれば変更が反映されます。
+[Proposal Process](https://docs.yearn.finance/contributing/governance/proposal-process)ページには以下のような流れが載っています。
 
-[TODO: Confirm the governance step from Facu]
+- フォーラムで3日間に渡る議論
+- フォーラム内の投票機能で25％以上の賛成票を得る
+- snapshotによるオフチェーン投票を始めるには1YFIトークンを所持しているアドレスのみ可能
+- 5日間の投票で採決には過半数賛成票が必要
 
-開始から1年半ほどで16のYIP（Yearn Improvoment Proposal）が出ています。[配当から自社トークン買いへのポリシー変更](https://gov.yearn.finance/t/yip-56-buyback-and-build/8929)といった結構大幅なことも決められたのがすごいですね。
-
-最新の議案では「[YIP-65: Evolving YFI Tokenomics](https://gov.yearn.finance/t/yip-65-evolving-yfi-tokenomics/11994) 」でより複雑なトークンモデルへの変更に関して活発に議論がなされています。
+Compoundのような代理人移譲システムはなく、トークン所有数に応じた投票率になります。
 
 そしてこれが一番すごいことなのですがYearnを作ってYFIトークンを立ち上げたAndre自身はガバナンスにほとんど関与していないということです。彼のガバナンスフォーラムのプロファイルを見てみると[2020年の9月を最後に全く投稿していません](https://gov.yearn.finance/u/andre.cronje/summary)。Andreはどちらかと言えば０を１にする能力に非常に長けた人で、次々と新しいプロダクトのアイデアを打ち出してはその実験を繰り返すということを続けています。創業者がトークンローンチ後３ヶ月でガバナンスから退いても金融機関顔負けの収益と、スタートアップ顔負けの組織が回っているDAO成功例の筆頭といって良いでしょう。
 
@@ -382,7 +382,7 @@ Uniswapのガバナンスですが、誰もがどんなトークンでもリス�
 
 ![](./assets/003-unitopvoters.png)
 
-トップにCompoundと同じくa16zというベンチャーキャピタルが入っていますが、3位にグラントプログラム、5位にはあの物議を醸し出したDefi Education fund の議案提出者であるHarverd Law Blockchainがいます。そして6位のKenneth NgはEthereum Foundationでずっと助成金を担当した人で、7位のベンチャーキャピタリストであるJesse Waldenとともに[助成金プログラムを提出](https://www.withtally.com/governance/uniswap/proposal/3)しています。
+トップにCompoundと同じくa16zというベンチャーキャピタルが入っていますが、3位にグラントプログラム、5位にはあの物議を醸し出したDefi Education fund の議案提出者であるHarverd Law Blockchainがいます。そして6位のKenneth NgはEthereum Foundationでずっと助成金を担当した人で、7位のベンチャーキャピタリストであるJesse Waldenとともに[助成金プログラムを提出](https://www.withtally.com/governance/uniswap/proposal/3)しています。
 
 ### Defi 世代のDAOツール
 
@@ -396,6 +396,8 @@ Defiで多く使われているDAOツールはDAO暗黒期に流行った全て�
 - Coordinape = Yearnが作り出した同僚評価アプリ
 
 注目するべき点としてはGnosis Safeを除いてはDefiプロジェクト自身が自らの問題を解決するために自作したツールが人気を呼び、他のプロジェクトでも使われるようになっているということでしょう。
+
+以上で2020年の3月から本格化したDefiの過熱の歴史を振り返ってみました。今でこそ「イーサリアムはガス代が高い」ということで有名ですが、このDefiサマーが始まるまでは1トランザクション当たり5gwei(ERC20トークントランスファーの費用が20〜30セント程度)だと「ちょっと高いから安くなるまで待とう」という感じでした。そして雨後の筍と湧いてくる新たなプロジェクト（その多くがUniswapのクローン）で始まるイールドファーミングで一儲けしようと高ガスももろともせずにイーサリアムを使いこなすDegen（Degenerate＝退廃した）やChad(後先顧みず無茶な行動をする男性の総称)達が出てきました。そしてこの夏に一儲けした人たちの有り余った余剰資金の受け皿として翌年に花開くNFTブーム（通称Jpegサマー）が花ひらいたと言えるのではないでしょうか。NFTに関連したDAOもたくさん登場するのですが、そこで使われているものの多くがこのDefiブームの中で出来上がったツールやベストプラクティスを使用したものとなっています。
 
 ## ２０２１：Jpeg Summer とコレクターDAO
 
@@ -451,4 +453,3 @@ https://manablog.substack.com/p/dao
 - https://medium.com/meebitsdao/introducing-meebitsdao-91bcef413c02
 - https://dappradar.com/nft/fractionalized
 - https://hedge.guide/feature/nft-collateral-loan-bc202108.html
-
