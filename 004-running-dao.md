@@ -15,7 +15,7 @@
 - オンチェーン投票：Compound
 - オフチェーン投票：Snapshot
 - ガバナンス代理：Vote With Tally
--  Coordinapte
+- Coordinape
 - トークンゲート：Collabland
 - 貢献の可視化：SourceCred,　Coordinape, Dune Analytics
 - All in One: DaoHaus、OpenZepellin Governance
