@@ -10,12 +10,19 @@
 
 ## DAOの起源
 
-Decentralized Autonomous Organisation の起源ですが、Ethereumの創始者である[Vitalik Buterlin が２０１３年ごろに作り上げた言葉だと自ら述べています](https://medium.com/@VitalikButerin/i-invented-the-term-in-2013-and-daniel-larimer-came-up-with-dacs-s-organization-corporation-a-ef86db1524d5)。ただそれより少し前にもBitshareという投票システムなどのあるブロックチェーンシステムを作り上げた（EOSという他のブロックチェーンシステムを創設したことでも有名である）Dan Larimerが提唱したDecentralised Autonomous Corporation(DAC)という言葉もあるし、[BitcoinそのものがDAOの起源であり、Bitcoin は株式を代替するものだと主張する人](https://bitcoinmagazine.com/culture/why-bitcoin-network-is-original-dao)もいます。
+Decentralized Autonomous Organisation の起源ですが、Ethereumの創始者である[Vitalik Buterlin が２０１３年ごろに作り上げた言葉だと自ら述べています](https://medium.com/@VitalikButerin/i-invented-the-term-in-2013-and-daniel-larimer-came-up-with-dacs-s-organization-corporation-a-ef86db1524d5)。ただそれより少し前にもBitshareという投票システムなどのあるブロックチェーンシステムを作り上げた（EOSという他のブロックチェーンシステムを創設したことでも有名である）Dan Larimerが提唱したDecentralised Autonomous Corporation(DAC)という言葉もあるし、[BitcoinそのものがDAOの起源であり、Bitcoin は株式を代替するものだと主張する人](https://bitcoinmagazine.com/culture/why-bitcoin-network-is-original-dao)もいます。
 
-[「DAOs, DACs, DAs and More: An Incomplete Terminology Guide」](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/
-)というVitalik Buterinによって2014年6月には以下のような定義が載っています。
 
-[TODO: DAOの定義]
+[DAC(Decentralised Autonomous Corporationを始めるには)](https://bitcoinmagazine.com/technical/bootstrapping-a-decentralized-autonomous-corporation-part-i-1379644274)という記事の中で、当時若干19歳だったVitalikが以下のように述べています。
+
+```
+What if, with the power of modern information technology, we can encode the mission statement into code; that is, create an inviolable contract that generates revenue, pays people to perform some function, and finds hardware for itself to run on, all without any need for top-down human direction?
+
+もし現在のモダンなITを活用することでミッションステートメントがをプログラムに落とし込むことができればどうなるだろう？変更不可能な契約プログラムが自ら収入をあげ、ある一定の行為をした人に支払いを行い、プログラムを実行するためのハードウェアを自ら見つけ出す。それを人間のトップダウン的な指示が必要なく行うのです。
+
+```
+
+結局こういった込み入ったことをするには当時のBitcoinには制約があるし、目的ごとにBitcoinをフォークして異なるネットワークを立ち上げるより、スマートコントラクトを用いてより汎用的なプログラムがかけるEthereumの創設につながります。
 
 Vitalikらが立ち上げたイーサリアムは2015年の夏にメインネットローンチしたのですが、著者がイーサリアムに関わりはじめた2016年の初めごろのethereum.orgのウェブサイトにはスマートコントラクトのチュートリアルとして、独自トークン、クラウドセールと並んでDAOの作り方が載っていました。
 
@@ -89,9 +96,9 @@ Colonyを使用しているプロジェクトはまだ少ないですが、ク�
 
 Aragonはスペイン出身の若き起業家Luis CuendeとJorge Izquierdoによって2017年に[ANTトークンセールを行い開始15分で2千5百万ドルを調達](https://cointelegraph.com/news/biggest-ever-ico-jackpot-netted-by-ethereum-based-aragon-despite-bad-actor)。
 
-[TODO:  Aragon機能の紹介をしているhttps://fafa0911.com/cryptocurrency-ant の要約]
+![](./assets/003-aragon.png)
 
-自身のプロトコル開発の分散化も積極的に推し進め、Aragon One, One Hive, Aragon Blackといった複数のチームが行なっています。
+DAO作成のためのフレームワークであるGovern、他のプロジェクトへの統合するためのClient、オンチェーン裁判所であるCourtなどなど盛り沢山です。自身のプロトコル開発の分散化も積極的に推し進め、Aragon One, One Hive, Aragon Blackといった複数のチームが行なっています。
 
 著者自身はテストネットバージョンを使ったことがあるのですが、結構機能がてんこ盛りで、使いこなすには時間がかかるという印象を受けました。スマートコントラクトの部品化も進んでおり、もしDAO機能をプロトコルに密に組み込みたいという企業には向いているかもしれません。
 
@@ -107,7 +114,7 @@ DAOStackはイスラエル出身の起業家[Matan Field](https://www.linkedin.c
 DAOStackの目玉としては「ホログラフィックコンセンサス」という少し難しそうなコンセプトがあります。
 
 これはたくさんあるプロポーザルの中からいかに良質の提案を拾い出すかを目的に設計されたものです。
-具体的な説明は[「DAOstackを難しい用語抜きで説明してみた」](https://medium.com/daostack/daostack%E3%82%92%E9%9B%A3%E3%81%97%E3%81%84%E7%94%A8%E8%AA%9E%E6%8A%9C%E3%81%8D%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F-60d8d334a339) の記事を引用します。
+具体的な説明は[「DAOstackを難しい用語抜きで説明してみた」](https://medium.com/daostack/daostack%E3%82%92%E9%9B%A3%E3%81%97%E3%81%84%E7%94%A8%E8%AA%9E%E6%8A%9C%E3%81%8D%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%A6%E3%81%BF%E3%81%9F-60d8d334a339) の記事を引用します。
 
 ```
 ここで、GENトークンが搭乗します。GENはDAOstackエコシステム内のアテンション（注意喚起）トークンとして機能します。GENでは、議決権を買うことも、投票することもできませんが、提案が集団や有権者（レピュテーション保持者）の歓心を得るべきかどうかステーク（投票）できます。レピュテーション保持者が合格した提案にステークすると、より多くのGENを報酬として受け取ります。あなたが落選した提案にステークした場合、あなたはGENを失います。
@@ -177,41 +184,272 @@ Peter PanはMolochに入会を拒絶する半年ほど前にEth Sanfrancisoと�
 
 MolochDAOとMetacartelからはその後も多くのDAOフレームワークが生まれただけでなく、彼らのネットワークから次世代のDAOを引っ張っていく人材も多く輩出されました。「[全てのDAOは Coopahtroopaに通じる](https://coopahtroopa.mirror.xyz/5vTIKBRzMpVAiNyc7CnABXjh3ToJrjQOnOdkwqvb3l8)」と豪語し、８０以上のDAOに関わっていると言われるCooper Turley もMolochDAO出身です。
 
-## ２０２０： Defi Summer とフェアローンチ
+## ２０２０： Defi Summer とガバナンストークン
+
+「DAO先駆者たちの苦悩」の箇所でトークンの流動性の問題が挙げられましたが、そもそもDAOをしたいためのだけにイーサリアムを使いこなそうという需要がなかったのではと思います。DAOの一機能である「資金調達手段」としてのICO（Initial Coin Offering）ブームがさってからはなおさらのことです。特にICOは実世界のエクイティとみなされて規制対象になることを逃れるため、なんらかの使い道をホワイトペーパーにてんこ盛りした「ユーティリティトークン」というものが大部分でした。入手が大変なトークンを苦労して試してみたいサービスも皆無だったといっていいでしょう。
+
+しかしながら2017年の後半から出来上がった数々のファイナンシャルサービスがその様子を一変します。ここではまず最初にDefiの基本サービスを紹介した後、そのサービスの多くが開始した「ガバナンストークン」について述べていきます。
 
 ### Defi三種の神器
 
-[TODO:]
+MakerDAOはアメリカ米ドルと同じ価値を持つようペッグされることを目的に作られた組織です。プロジェクトそのものはイーサリアムがサービスを開始するより早い[2014年に発足](https://en.wikipedia.org/wiki/Dai_(cryptocurrency))しています。そして実際に稼働を始めたのは2017年11月です。
 
-- MakerDAO
-- Uniswap
-- Compound
+基本的にはイーサのような他の通貨をスマートコントラクト内に担保することでその担保の一定内に収まる額のDAIというトークンを発行します。担保された通貨が元本割れしないように必要な比率を割ると誰もがその担保分を清算することができます。DAIの担保タイプや担保比率、そしてDai Stability Rateという比率はMakerDAOのガバナンストークンであるMKRトークン保持者による投票によって維持されています。
 
-### Defi Govrenance DAO
+DAIのようなフィアット通貨に価格がペッグされるトークンのことをステーブルトークンと言います。[defi pulse](https://defipulse.com/usd)のステーブルトークンの総流通量チャートを見ると2020の４月まではほぼ横ばいだったのですが、それ以降上昇を果たし、執筆時（2021年12月）では１０７０億ドルの規模にまで成長しています。
 
-[TODO:]
+![](./assets/003-defidollars.png)
 
-- Synthetix
-- Compound
-- Yearn とフェアローンチ
-- SushiSwapバンパイアアタックと＄UNIトークン
+DAI以外にもUSDT,USDCといったステーブルトークンがあるのですがこれらはブロックチェーン外にある金融資産によって価値が担保されているので、担保の資産管理団体の与信に不安があったり、政府機関に差し押さえなどされるリスクがあります。それに比べステーブルトークンは担保額が全てイーサリアム上にあるため、リアルタイムに担保額がわかる透明性がある上、差押リスクは比較的低くなります。
 
-##
+短所としてはスマートコントラクトで常にドルの価値と一定に保つというのは非常に難しく、担保の急激な価格変動とガスの高騰によって清算ボットがうまく可能せず、ペッグが大幅に崩れるといった事件もありました。その時はMKRトークンを大量発行によるガバナンストークン価値の希薄化というペナルティをトークンホルダーが経ています。そしてそれまでは担保資産の大半がイーサだったのですがUSDC配分を増やしたため、金融機関にUSDCが差し押さえられた時に共倒れのリスクが上昇しました。DAIにとって変わるべく数々のスマートコントラクトベースのステーブルプロジェクトが
+
+
+ステーブルトークンを利用したサービスとしてまず最初に出てきたものとして貸付サービスがあります。 Compound(2018/9)、Aave(2020/1)などが有名です。これらもMakerDAOに似たように借りる額以上をスマートコントラクト上に担保として預ける必要があり、担保額が一定額を下がるとボットに清算されてしまいます。利子は短期間に大きくブレるのですが、時期によっては１０〜２０％といった既存金融機関の利子を大きく上ることがあります。また、Aaveにはトークンの元本と利子が一体化したaToken、イーサリアムのブロック（15秒程度に一回ほど行われる決済機能）単位で無担保で借り出しのできるフラッシュローンといったブロックチェーンならではの機能があります。[defi pulseでは以下のような利子率のランキングを見ることができます](https://defipulse.com/defi-lending)
+
+![](./assets/003-defilending.png)
+
+
+ステーブルコイン、貸付サービスと同様にDefi三種の神器の一角をなすのがDex（Decentralised Exchange）、その中でもUniswap(2018/11)は最も人気のあるサービスです。 CoinbaseやBinanceといった暗号通貨取引所はCex (Centralised Exchange)と呼ばれます。基本的にはユーザーは自分の資産を取引所に保管されて（Custodial）います。ドルや円といったフィアット通貨から暗号資産が購入できるといった利便性がある反面、顧客の多額の資産が集まっているため常にハッキングの標的となっています。Dex(Decentralised Exchange )は反面、取引が全てスマートコントラクトを経由して自分のウォレットから行われるため、ハッキングリスクが少ない上、他のサービスから直接統合可能です。Uniswap以前にもEtherDelta、0xといったサービスがあったのですが、Uniswapは「x*y=k」という簡単な数式に基づいてスマートコントラクト上にプールされた流動性資金（以降LP＝Liquidity Provider）と簡単に交換できる上、誰もがどんなトークンの交換ペアをLPとして提供できることでPermisionlessな取引所を形成しています。
+
+「板取引」という従来の取引所画面とUniswapの画面を比べてみると格段にシンプルなUIです。そしてわざわざ取引所にログインせずともウォレットを接続するだけですぐに使えるのも魅力です。
+
+![](./assets/003-coinbaseuni.png)
+
+Uniswap、DaiやCompoudといったサービスに資金供給することで高い利率やスワップ手数料を稼ぐことができるようになり、ICOといった投機目的以外でイーサリアムを使う人たちが徐々に増えてきました。
+そしてUniswapの「誰もがどんなペアでも交換できる」仕組みを利用して、のちに出てくるガバナンストークンの取得に使われる「イールドファーミング」が生まれました。
+
+### イールドファーミングとガバナンストークン
+
+SNXトークンを担保とすることで合成通貨を作るSynthetixというサービスがあります。[元々はHeaven](https://www.owl-coin.com/coins/havven) というプロジェクト名でICOを行い、2018年3月に資金調達をしたのですが、11月に現在の名前に変更しました。
+
+もともとは合成通貨の担保としての役割を持っていたSNXですが、その合成通貨を大量発行して流動性を高めるには大量の担保が必要になります。ユーザに担保（Defiではステーキングの方が一般的に用いられます）してもらった対価としてSNXトークンを配布するよう[プロトコルの変更を求めた](https://blog.synthetix.io/uniswap-seth-pool-incentives/)のがイールドファーミングの走りとなります。2019年の7月のことになります。このイールドファーミングが功を奏し、一時は[Uniswap内で最もステーキされたプール](https://www.coindesk.com/learn/what-is-yield-farming-the-rocket-fuel-of-defi-explained)になりました。
+
+他のDefiプロジェクトがSynthetixのようなイールドファーミングを導入したのはそれから一年ほど遅れた2020年春、前述したCompound が6月にCOMPトークンとイールドファームを始めたのを皮切りにBalancer やCurveといったその他のDexもガバナンストークンのローンチとイールドファーミングを開始しました。
+
+これらのDefiトークンの特徴はICOのようにクラウドセールでトークンを売るのではなく、自分たちのプラットフォームを使ってくれたユーザーを対象にガバナンスのためにトークンを配布したという点です。
+
+[「Compound概要と、DeFiを揺るがしたCOMP祭りの内幕」](https://medium.com/defi-japan/compound%E6%A6%82%E8%A6%81%E3%81%A8-defi%E3%82%92%E6%8F%BA%E3%82%8B%E3%81%8C%E3%81%97%E3%81%9Fcomp%E7%A5%AD%E3%82%8A%E3%81%AE%E5%86%85%E5%B9%95-f96985bf4fc7)に詳しく書いてあるのでそこから概要を抜粋します。
+
+```
+総発行COMP数は1000万COMPで、そのうち4,229,949COMP (約42%)がCompoundユーザーへ、利用に応じて無料配布が行われます。
+
+Ethereumの1ブロック(約15秒)ごとに0.5COMPが、マーケットの金利に応じて割り当てられます。高い金利のマーケットに参加している貸し手/借り手ほど、たくさんのCOMP配布を受けることができます。
+
+1日の配布量は2880 COMPであるため、42%全てが配布されるまで4年かかります。当然、ユーザーが増えると一人あたりの配布は減ります。
+
+COMP保有者がCompoundの将来を決定するガバナンスシステムであるため、ユーザーコミュニティを活発にするためにも、約半分がユーザーへの分配にあてられているわけです。
+COMPはあくまでもCompoundのガバナンストークンです。用途はガバナンス参加のみで、投機を促すような機能は組み込まれていません。そもそも資金調達のためのトークンですらなく、発行側は対価を得ず、4年間でゆるやかに、全てのユーザーに配布する予定です。
+```
+
+「発行側は対価を得ず」と書かれていますが、[コインデスクの記事によると](https://www.coindesk.com/markets/2020/06/17/first-mover-compound-has-been-a-defi-darling-its-new-token-is-priced-accordingly/)残りの68％のうちの24％は開発元であるCompound Labs Inc 社の株主にすでに配布されており、22％分は創業者や開発チーム達に4年かけて配布されているとあります。なので発行元である会社の株主達が配布時点でUniswapなどのDexに自分で流動性を追加することで手数料を得たり、単に売り抜けることも可能です。
+
+実際のガバナンストークンの使用方法ですが、COMPトークンホルダーは自分の投票権を自分自身、あるいはどのイーサリアムアドレスに移譲することができます。
+
+プロポーザルを作るには6万5千 COMP必要ですが、100 トークンをロックすれば誰もが匿名プロポーザルを作り、その提案に対して6万5千トークンが委譲されると通常のプロポーザルになります。
+
+プロポーザルが作られると2日のレビューピリオドを経て３日間の投票期間に入ります。案が可決されるためには最低でも40万票必要で、２日間のタイムロックの後でプロトコルの変更に適応されます。なのでプロポーザルが提案から実行に移される間トータル一週間かかります。
+
+[https://compound.finance/governance](https://compound.finance/governance)のページを見ると最近の決議にかけられたプロポーザルの一覧と投票権を多く持ったユーザの一覧を見ることができます。
+
+
+第5位の創業者を除くと上位は全て暗号通貨に投資することで有名なベンチャーキャピタルで軒並みしめられいます。そして上位3位のユーザーだけで全投票数の30％が締められているのも特筆に値します。
+
+![](./assets/003-comp-gov.png)
+
+### Yearn とフェアローンチ
+
+Defi三種の神器が揃ってからさまざまな方法で高い利率を得ることができるようになったのですが、次々と現れる高利率なプロダクトに常に注目し、乗り換えるのは簡単なことではありません。そこでAndre Cronjeという開発者がそれらの切り替えを自動化するプロトコルであるiEarnというサービスを一人で作り上げました。先程「自動化」と言いましたがスマートコントラクトは自らでサービスを開始することができず、常にユーザー（あるいはボットが）がスマートコントラクトの機能を呼び起こす必要があります。なのでより多くのユーザーがサービスを使ってくれることによってより頻繁に良いサービスへの切り替えを行うことができるため、彼がこのサービスを無料で一般公開することは理にかなっていたのです。
+
+しかしながらこのサービスが人気になるにつれユーザーからの執拗な改善要求や辛辣な言葉を浴び続け、ついには「[Building in #DeFi Sucks](https://andrecronje.medium.com/building-in-defi-sucks-b8fdfda0ef58)（Defi作りなんか最悪）」というブログを残してオモテ世界から姿を消してしまいます。2020年の2月の終わりのことでした。
+
+そして４ヶ月ほどの沈黙を経て7月にiEarnからYearnへと名前を変えて再登場し、ガバナンストークンである[＄YFIをぶち上げます](https://medium.com/iearn/yfi-df84573db81)。今までのトークン発表とはあまりにも異質だったので原文とその訳を載せておきます。
+
+```
+YFI, a completely valueless 0 supply token. We re-iterate, it has 0 financial value. There is no pre-mine, there is no sale, no you cannot buy it, no, it won’t be on uniswap, no, there won’t be an auction. We don’t have any of it.
+
+YFIは全く無価値で供給量が０なトークンです。繰り返し言います。経済的な価値は0です。あらかじめトークンが掘られていることもなければ売りにも出されておらず、買うこともできません。Uniswapに流動性も供給されません。我々は全く持っていないんです。
+
+Earning YFI is simple, provide liquidity to one of the platforms above, stake the output tokens in the distribution contracts (we will provide an interface for this), and you will earn a (governance controlled) amount per day.
+
+YFIを稼ぐことはシンプルです。このプラットフォーム上に流動性を供給するか、手にしたYFIトークンをさらに（Balancerなどの）ディストリビューションコントラクトにステーキする（私たちの方でUIを提供します）ことで毎日トークンを稼ぐことができます。
+
+Otherwise, standard voting rules apply, minimum quorum required (>33%) to propose a change, usual veto rights (>25%), and usual agreement thresholds (>50%) required to pass a vote and update a change. All these are configurable, governance can feel free to change as required.
+
+それ以外は通常の投票ルールが当てはまります。プロポーザルを提出するには３３％の、拒否権を発動するには25％の、そして可決するには過半数の投票が必要です。これらの数値はガバナンスによって変更可能です。
+
+So if you are an LP to one of the systems (or all of the systems above), the control is in your hands. Good luck.
+And just because we feel we didn’t stress it enough, 0 value. Don’t buy it. Earn it.
+
+なのでもしあなたがLP（流動性供給者）、または上記の他の方法を行なった場合、YFIはあなたの手中にあります。グッドラック。
+
+そして何度言っても言い足りないのでもう一度言うけどトークンは無価値です。買っちゃいけない、稼ぐんだ。
+
+YFI ERC20 address: 0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e
+
+```
+
+このYFIトークンは圧倒的な支持を得て、「無価値」と言っていたトークンの価格も一時はビットコインの価格を凌ぐまでになりました。
+
+YFIは基本的にはCOMPと同じようなガバナンストークンなのですが、プロトコルの収益をトークンホルダーに配当を配ったり（現在はYFIトークンの市場からの買い戻しに変更）することでトークンの価値を高めようとしています。四半期ごとにバランスシートなども出して会社さながらです。
+
+![](./assets/003-yearnbalancesheet.png)
+
+[2021年Q2のリポート](https://github.com/yearn/yearn-pm/blob/master/financials/reports/2020Q3-yearn-quarterly-report.pdf)によると、以下の情報が読み取れます。
+
+- 税引前利益(EBITDA)は1600万ドル
+- 主力の yVaultの収益にはCRVトークンの含み益も含む
+- 休眠資産を使ってイールドファーミングを行うことで86万ドルの収益をあげる
+- 現在26人のフルタイムコントリビューターがおり、給料として80万ドルを支払っている
+- Coordinapeという自社開発した同僚評価アプリを使い、20万ドル相当の支払いを行なっている
+- 2000年11月から毎年YFIトークンの市場から360万ドル相当買い戻し
+- 保有資産は1.5億ドル（90%の保有資産はYFIトークン）
+- 顧客預かり資産（Total Value Locked）は6月に50億ドルを超える
+
+総費用は期末にならないとわからないのですが、オンチェーンの収入に関しては[https://www.yfistats.com](https://www.yfistats.com/financials/financials.html)のサイトを使って、リアルタイムかつインタラクティブに調べることができます。
+
+![](./assets/003-yfistats.png)
+
+
+ガバナンスの形態はSnapshotを利用したオフチェーン投票とSnapshotの結果の後、Multisigに決議がうつされ、9人中6人が合意すれば変更が反映されます。
+
+[Proposal Process](https://docs.yearn.finance/contributing/governance/proposal-process)ページには以下のような流れが載っています。
+
+- フォーラムで3日間に渡る議論
+- フォーラム内の投票機能で25％以上の賛成票を得る
+- snapshotによるオフチェーン投票を始めるには1YFIトークンを所持しているアドレスのみ可能
+- 5日間の投票で採決には過半数賛成票が必要
+
+Compoundのような代理人移譲システムはなく、トークン所有数に応じた投票率になります。
+
+そしてこれが一番すごいことなのですがYearnを作ってYFIトークンを立ち上げたAndre自身はガバナンスにほとんど関与していないということです。彼のガバナンスフォーラムのプロファイルを見てみると[2020年の9月を最後に全く投稿していません](https://gov.yearn.finance/u/andre.cronje/summary)。Andreはどちらかと言えば０を１にする能力に非常に長けた人で、次々と新しいプロダクトのアイデアを打ち出してはその実験を繰り返すということを続けています。創業者がトークンローンチ後３ヶ月でガバナンスから退いても金融機関顔負けの収益と、スタートアップ顔負けの組織が回っているDAO成功例の筆頭といって良いでしょう。
+
+### SushiSwapバンパイアアタックと＄UNIトークン
+
+Defi三種の神器のうちの２つまでがDAO化して残るはUniswapですがこれは最もドラマチックな方法でDAO化しました。
+
+CompoundがDAO化した時にVC資本が権力の大半を握っていることが明確となりました。
+
+時間軸は異なりますがこの記事を書いている2012年12月にちょうどTwitterの創業者を降りたばかりのジャックドーシーが「You don't own "web3"」と[ツイート](https://twitter.com/jack/status/1473139010197508098)したことが暗号通貨関係者からの非難を轟々に受けましたが、ここの部分だけ見てみるとあながち的外れでもない気がします。
+
+![](./assets/003-you-don-own-web3.png)
+
+会社の売却やIPOまでの長期間待たずともトークンによって利益をもっと手早く手に入れることのできるDefiなどのWeb3プロジェクトをVCがほっておくわけがありません。
+
+逆にYFIのDAO化に際しては誰もが平等な権利を持った「フェアローンチ」が熱狂的な支持を得ました。それと同時に多くのYFII, YFFI, YFV と言った多くのコピープロジェクトが立ち上がりました。 イーサリアム上にあるスマートコントラクトは基本時にオープンソースになっているものが多く、コードそのものをコピペすることはそんなに難しくないことも多いです。
+
+TheBlockというクリプトニュースサイトの人が「（Yearn 作ったAndreCronjeみたいな凄腕開発者が）Uniswapをフォーク（プログラムをコピーすること）して、ブランドをちょこっと変えて、流動性供給してくれた人たちにトークンの９０％を配ったらどうするだろう？Uniswapチームは敵なしだけどそんなことされたらどうするんだろう。そして残りの１０％を開発資金に割り当てて開発チームを雇ったらどうしようもないんじゃないかな」とつぶやいた4日後「シェフノミ」なる匿名アカウントからSushi [Swapというプロジェクトが発表されます](https://twitter.com/NomiChef/status/1298677806193209344)。
+
+![](./assets/003-chef-nomi.png)
+
+この一連の物語は書き出したらそれだけで一章分かかると思うので[初心者でもわかる「SushiSwap」とは](https://coinpost.jp/?p=278042)から一部抜粋します。
+
+```
+SushiSwapを一躍有名にしたのが、いわゆる「ヴァンパイア攻撃（Vampire Attack）」です。ヴァンパイア攻撃とは、あるオープンソース・プロジェクトをコピーし、そのオリジナルのプロジェクトよりも高いAPY（金利）や優れたインセンティブを提供することにより、コピー元のユーザー、流動性およびトレード量を奪い取ろうとする試みを指しています。
+
+SushiSwapの場合、Chef Nomi氏がユニスワップユーザーへ提示したインセンティブは、ガバナンストークン「SUSHI」でした。
+
+具体的には、SUSHIを報酬に、SushiSwapローンチまでの15日間、UniswapのLPトークン（流動性提供トークン）をSushiSwapに預けるよう、Uniswapの流動性提供者を促しました。LPトークンとは、流動性提供者がトークンをプールに預け入れ、流動性を提供したことを示す、いわば債券のようなものです。預け入れた元のトークンを回収したい場合には、LPトークンを返却す
+ることで手数料収入とともに、トークンを取り戻すことができます。
+```
+
+Uniswapのような分散取引所の場合、流動性が低くなると各トークンの換算率が悪くなるため、すぐに他のサービスに客足が遠のいてしまいます。そのためUniswapは対抗策としてのトークンローンチを迫られます。
+
+9月16日に発表された[Introducing UNI」という記事](https://uniswap.org/blog/uni)では、今までUniswapを使った人の全てにトークンを配布するという「レトロアクティブエアドロップ」が初めて大々的に行われたことでも知られています。このため25万人にも及ぶユーザーが最低でも400 UNI受け取ることになりました。配布直後は4ドル前後で価格が推移していたのですが1時は40ドルをこしました。そのためこれらのユーザーが1600~16000ドル相当のトークンを手にしたことになります。
+
+[トルコのある大学の授業ではブロックチェーンの授業でUniswapを使うことが課題になっていたため、この課題をこなした生徒は年間授業料の半分近くをエアドロップで受け取ったというニュースもありました](https://cointelegraph.com/news/meet-turkeys-unexpected-winners-of-uniswaps-uni-giveaway)。
+
+
+Uniswapのガバナンスですが、誰もがどんなトークンでもリストできるという性質上、手数料率以外は特に変更すべきスマートコントラクトパラメターがありません。過去に２回の大幅なアップグレードが行われたのですが、それらは全て新規にスマートコントラクトをデブロイし、流動性の移動は各ユーザーに任された状態になっています。イーサリアム以外の他のチェーンにUniswapをデプロイしようという提案も過去に出されて可決されていますが投票の結果が拘束力を持つわけではなく、あくまで
+なのでUniswapのプロポーザルの大部分はエコシステムへの助成金です。
+ 
+ [messari.ioが作成したDefiトップ３助成金プログラムチャート](https://messari.io/article/blitzscaling-daos-rethinking-spending-for-decentralized-organizations?referrer=asset:uniswap)によるとUniswapがダントツの170万ドルを拠出しています。
+
+![](./assets/003-grant-spending.png)
+
+そしてYarnなどと違いUniswapは現在プロトコル手数料を徴収していないため、資産の大部分はUNIトークンになっています。これによって助成金をあげればあげるほど、受け取り先が現金化して使うためにUNIトークンに対する売り圧力がかかるというジレンマも抱えています。
+
+[アメリカの「Defi教育基金」に100万UNIトークンを助成するという提案が通ったのですが、４〜5年に渡って現金化するという約束だったにもかかわらず半額近く（1000万ドル相当）をUSDCステーブルトークンに売ったとして問題に上がりました](https://cointelegraph.com/news/concern-as-uniswap-backed-defi-education-fund-dumps-10m-worth-of-uni)。
+
+
+またアナリティクス会社のFlipsideが[「助成金を預けた利子をもとに（助成金を使い込まずに）コミュニティアナリティクスを作りたい」というプロポーザルを出した](https://app.uniswap.org/#/vote/1/2)のですが、競合であるDune Analyticsに「なんで自分の会社の製品の開発にUniswapの助成金を使おうとしているんだ」と批判を受け、僅差で通ったにもかかわらず辞退するに至っています。
+
+![](./assets/003-unianalytics.png)
+
+([Dune Analyticsがコミュニティメンバーに否決投票を呼びかけるツイート](https://twitter.com/DuneAnalytics/status/1428250340139356164))
+
+[ガバナンス可視化ツールのTally](https://www.withtally.com/governance/uniswap)にあるトップ投票者の一覧を見てみましょう。
+
+![](./assets/003-unitopvoters.png)
+
+トップにCompoundと同じくa16zというベンチャーキャピタルが入っていますが、3位にグラントプログラム、5位にはあの物議を醸し出したDefi Education fund の議案提出者であるHarverd Law Blockchainがいます。そして6位のKenneth NgはEthereum Foundationでずっと助成金を担当した人で、7位のベンチャーキャピタリストであるJesse Waldenとともに[助成金プログラムを提出](https://www.withtally.com/governance/uniswap/proposal/3)しています。
+
+### Defi 世代のDAOツール
+
+Defiによって多くのプロトコルに大量の手数料収入が入り、そしてガバナンストークンがDex等で高価格で取引されることにより、Defi DAOに大変な額の資産が集まることになりました。多くのプロジェクトのガバナンスのフォーカスは２つあります。まず一点はいかにプロトコルのコアなパラメター（MakerDAOで言えば担保率など）や新しい取り扱い通貨の是非をトークン投票によって決めるか。そして二点目はいかに自分たちのエコシステムに助成金を分配するかです。
+
+Defiで多く使われているDAOツールはDAO暗黒期に流行った全ての機能を満載されたフレームワークではなく、個別の機能に特化された以下のように組み合わせて使うことが多いです。
+
+- Gnosis Safe = 予測市場であるGnosisプロジェクトが自らのICOを行なった時に多額の資金を貯めても安心なように設計されたマルチシグウォレット）
+- Compound Alpha/Bravo = Compoundガバナンスの投票、及び投票人委任を担当するスマートコントラクト)
+- Snapshot= Dexの一つであるBalancerプロジェクトが作りだしたオフチェーン投票ツール
+- Coordinape = Yearnが作り出した同僚評価アプリ
+
+注目するべき点としてはGnosis Safeを除いてはDefiプロジェクト自身が自らの問題を解決するために自作したツールが人気を呼び、他のプロジェクトでも使われるようになっているということでしょう。
+
+以上で2020年の3月から本格化したDefiの過熱の歴史を振り返ってみました。今でこそ「イーサリアムはガス代が高い」ということで有名ですが、このDefiサマーが始まるまでは1トランザクション当たり5gwei(ERC20トークントランスファーの費用が20〜30セント程度)だと「ちょっと高いから安くなるまで待とう」という感じでした。そして雨後の筍と湧いてくる新たなプロジェクト（その多くがUniswapのクローン）で始まるイールドファーミングで一儲けしようと高ガスももろともせずにイーサリアムを使いこなすDegen（Degenerate＝退廃した）やChad(後先顧みず無茶な行動をする男性の総称)達が出てきました。そしてこの夏に一儲けした人たちの有り余った余剰資金の受け皿として翌年に花開くNFTブーム（通称Jpegサマー）が花ひらいたと言えるのではないでしょうか。NFTに関連したDAOもたくさん登場するのですが、そこで使われているものの多くがこのDefiブームの中で出来上がったツールやベストプラクティスを使用したものとなっています。
 
 ## ２０２１：Jpeg Summer とコレクターDAO
 
-### WhaleDAO
+### NFT の歴史
 
-[TODO:]
+- https://blog.portion.io/the-history-of-nfts-how-they-got-started/
+- RarePepe
+- CyrptoPunks
+- ENS
+- CryoptoKitties
+- OpenSea/SuperRare
+- Rarible DAO
+- NBATopshot
+- Beeple
+- Pfp (Bored Ape, CryptoCorgi, RescueTheMoonCat, etc)
+- Loot
 
-### Beeple とBEP20
+### NFT DAO の種類
 
-[TODO:]
+#### Collector DAO (PleasrDAO, FlamingoDAO, ConsitutionDAO)
 
-### PleasrDAO
+https://members.delphidigital.io/reports/pleasrdao-collecting-internet-culture-acquiring-the-wu-tang-clan-album-snowden-doge-nft-and-art-dao-operations/
 
-[TODO:]
+##### [FlamingoDAO](https://flamingodao.xyz/)
 
-### Loot
+https://manablog.substack.com/p/dao
 
-[TODO:]
+
+##### [ConstitutionDAO](https://www.constitutiondao.com/)
+
+- https://www.cnbc.com/2021/11/18/constitutiondao-crypto-investors-lose-bid-to-buy-constitution-copy.html
+
+### Generative
+
+- [NounsDAO](https://themassage.jp/archives/15208) = Compound governance
+- https://cryptocorgis.co/ = gnosis safe and [nftx]( https://app.boardroom.info/crypto-corgis.eth/proposal/cHJvcG9zYWw6Y3J5cHRvY29yZ2lzOmRlZmF1bHQ6cW14ZDZoOG5yOHk5dGg3bmI2Y2E0eGtxeDVsanF6ZnM4cDh5eTk2cGZjZ3Ricw==)
+- https://twitter.com/mskdao
+- Squiggles DAO 
+
+### LAO (FlamingoDAO)
+
+- https://medium.com/@FLAMINGODAO/- flamingo-dao-an-nft-collective-1de9c85bbe06
+
+#### Social Token 
+
+- [(WhaleDAO)](https://medium.com/whale-community/the-whale-dao-e3f4dc736a5b)
+-[Metafactory(Robot)](https://www.metafactory.ai/)
+- [TryRollhack](https://www.coindesk.com/markets/2021/03/14/social-tokens-crash-after-reported-hack-at-roll/)
+
+#### Fractionisation (Doge NFT, Punks, meebits)
+
+- https://decrypt.co/68604/50-cryptopunks-nfts-go-fractional-in-new-collection
+- https://medium.com/meebitsdao/introducing-meebitsdao-91bcef413c02
+- https://dappradar.com/nft/fractionalized
+- https://hedge.guide/feature/nft-collateral-loan-bc202108.html
