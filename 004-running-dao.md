@@ -21,6 +21,8 @@
 - All in One: DaoHaus、OpenZepellin Governance
 - Treasury Diversification 
 
+
+
 ### DAO情報可視化サイト
 
 https://sybil.org/#/delegates/uniswap
