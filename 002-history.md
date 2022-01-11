@@ -180,9 +180,9 @@ MolochDAO は先述したDAOフレームワークとは違い、「ETH２.0プ�
 
 MolochDAOに大量の寄付が入り注目が集まった2019年5月、Peter PanがMolochをフォークし、[MetacartelDAOを創設](https://medium.com/metacartel/forking-moloch-dao-d140a37d6649)します。そもそもの理由なのですがMolochDAOのそれまでのメンバーは入会のために100イーサを拠出していましたが、彼はそんなお金がなく10イーサで入ろうとしたところ、入会を拒絶されてしまったことに端を発します。その際に、もともと彼をMolochに誘ったAmeenからフォークするよう提案を受け、他のメンバーからも助けを受けて作り上げました。
 
-Peter PanはMolochに入会を拒絶する半年ほど前にEth SanfrancisoというハッカソンでMetacartelという団体を組織しました。このMetacartelはMeta Transactionというテクノロジーからきています。イーサリアムの問題点の一つとして、スマートコントラクトのロジックを実行するためには、それがイーサのやりとりをするのに関係なくガス代を払わなければいけない点です。よくある例としてはアートNFTを発行する際にガス代を払う必要がある点です（この時点ではオープンシーのLazy Mintのような機能はまだ存在していませんでした）。NFTを発行するアーチストなど暗号通貨となじみがない人がイーサリアムを使おうとした際、NFTを売ることでイーサを手に入れることは大変有効に思えるかもしれませんが、その前の段階で発行用にガス代がいるため、色々複雑な手順を経て取引所からイーサを買わなければいけないのはイーサリアムの普及の妨げになると考えている人達は多くいました。そのためイーサリアムのガス代を払うのをアプリ側に肩代わりしてもらおうというのがメタトランザクションの大まかな概念です。2019年から2020年にかけて登場したウォレットの中にはArgent, UniLogin, Monolith, Authereumといったメタトランザクション機能を内蔵したものが多く現れました。Metacartelはそもそもその仕様を決める団体として生まれたのですが、MetacartelDAOを創設した際にはイーサリアム上で作られるアプリに対しての助成金を出す団体として生まれ変わりました。そしてそのMetacartelDAOの助成金を受けだ第一弾の一つとして筆者が召喚したOrochiDAOになります。OrochiDAO自体もMolochDAOのフォークとして最初は筆者自身で作ろうとしたのですが、途中で挫折しました。そこでMolochのフォークプロジェクトをプログラミング経験のない人でも簡単に作ることができるフレームワークとしてDaoHausが生まれ、OrochiDAOはそのフレームワークを使った第一号として生まれました。
+Peter PanはMolochに入会を拒絶する半年ほど前にEth SanfrancisoというハッカソンでMetacartelという団体を組織しました。このMetacartelはMeta Transactionというテクノロジーからきています。イーサリアムの問題点の一つとして、スマートコントラクトのロジックを実行するためには、それがイーサのやりとりをするのに関係なくガス代を払わなければいけない点です。よくある例としてはアートNFTを発行する際にガス代を払う必要がある点です（この時点ではオープンシーのLazy Mintのような機能はまだ存在していませんでした）。NFTを発行するアーチストなど暗号通貨となじみがない人がイーサリアムを使おうとした際、NFTを売ることでイーサを手に入れることは大変有効に思えるかもしれませんが、その前の段階で発行用にガス代がいるため、色々複雑な手順を経て取引所からイーサを買わなければいけないのはイーサリアムの普及の妨げになると考えている人達は多くいました。そのためイーサリアムのガス代を払うのをアプリ側に肩代わりしてもらおうというのがメタトランザクションの大まかな概念です。2019年から2020年にかけて登場したウォレットの中にはArgent, UniLogin, Monolith, Authereumといったメタトランザクション機能を内蔵したものが多く現れました。Metacartelはそもそもその仕様を決める団体として生まれたのですが、MetacartelDAOを創設した際にはイーサリアム上で作られるアプリに対しての助成金を出す団体として生まれ変わりました。そしてそのMetacartelDAOの助成金を受けだ第一弾の一つとして筆者が召喚したOrochiDAOになります。OrochiDAO自体もMolochDAOのフォークとして最初は筆者自身で作ろうとしたのですが、途中で挫折しました。そこでMolochのフォークプロジェクトをプログラミング経験のない人でも簡単に作ることができるフレームワークとしてDaoHausが生まれ、OrochiDAOはそのフレームワークを使った第一号として生まれました（OrochiDAOに関してはユースケースの章で詳しく触れます）。
 
-MolochDAOとMetacartelからはその後も多くのDAOフレームワークが生まれただけでなく、彼らのネットワークから次世代のDAOを引っ張っていく人材も多く輩出されました。「[全てのDAOは Coopahtroopaに通じる](https://coopahtroopa.mirror.xyz/5vTIKBRzMpVAiNyc7CnABXjh3ToJrjQOnOdkwqvb3l8)」と豪語し、８０以上のDAOに関わっていると言われるCooper Turley もMolochDAO出身です。
+MolochDAOとMetacartelからはその後も多くのDAOフレームワークが生まれただけでなく、彼らのネットワークから次世代のDAOを引っ張っていく人材も多く輩出されました。「[全てのDAOは Coopahtroopaに通じる](https://coopahtroopa.mirror.xyz/5vTIKBRzMpVAiNyc7CnABXjh3ToJrjQOnOdkwqvb3l8)」と豪語し、８０以上のDAOに関わっていると言われるCooper Turley もMolochDAO出身です。そしてMetacartelから助成金を受けたり、DaoHausを利用して新しいDAOが生まれました。助成金だけではなく投資にも特化したMetacartel Ventures、開発者が必要なDAOやプロジェクトに開発リソースを提供するRaid Guildなどがあります。
 
 ## ２０２０： Defi Summer とガバナンストークン
 
@@ -401,16 +401,60 @@ Defiで多く使われているDAOツールはDAO暗黒期に流行った全て�
 
 ## ２０２１：Jpeg Summer とコレクターDAO
 
+2020年に怒涛のように花咲いたDefiが2021年にも続くかと思ったのですが、その予想を反してメインストリームメディアの注目を引いたのがNFT（Non Fungible Token、非代替性トークン）です。この章ではNFTの歴史を軽く紐解くとともにDAOとの関わりについて述べていきたいと思います。
+
+
 ### NFT の歴史
 
-- https://blog.portion.io/the-history-of-nfts-how-they-got-started/
-- RarePepe
-- CyrptoPunks
-- ENS
-- CryoptoKitties
-- OpenSea/SuperRare
+ NFTのどの部分をとって「最初のNFT」というのは色々意見が分かれるところです。現在人気のNFTの多くが仕様しているのは、イーサリアム上にある「ERC721」という仕様で表現されたもので、Dapper Labs社が2017年11月に発表して人気に火がついたCrypto Kittiesをもとに策定されました。しかしながらそれより半年前にもCryptoPunks という一万体のピクセル画像をトークンに紐づけたものや Etheria というバーチャルランドをイーサリアム上にトークン化したもの（2015年）、はたまたビットコインをフォークして他の情報を蒸したカラードコイン（2021年）だと[いう人たちもいます](https://blog.portion.io/the-history-of-nfts-how-they-got-started/)。
+筆者の所属するENS（Ethereum Name Service）はCryptoPunksより１ヶ月ほど早い2017年に３ヶ月かけてドメインネームをオークションしたので、中にはCryptoPunksより古い名前を持っている人もいます（ただERC721方式にアップグレードしたのは2019年5月です）。
+
+NFTはよく「唯一無二のデジタルアイテムの所有権を証明できる」とか「転売したらロイヤリティが入ってくる」、「発行されたNFTの数も固定され、原則発行者であっても後からその数を変更することができない」などと言われることも多いので、原点に立ち返って
+[ERC721の仕様](http://erc721.org/)の一部を見ていきましょう。
+
+```javascript
+interface ERC721{
+  function balanceOf(address _owner);
+  function ownerOf(uint256 _tokenId);
+  function transferFrom(address _from, address _to, uint256 _tokenId);
+```
+
+本当はもっとあるのですが、この３つの機能を見ていけば大丈夫です。
+
+まず`function balanceOf(address _owner);`の箇所なのですがオーナーのアドレスを渡すといくらトークンを保持しているか教えてくれます。これはNFTより先に出てきた（ガバナンストークンなどの作成に用いられる）ERC20トークンを世襲してつけられたものです。ただこれだけだと唯一性を表現できないので２番目の`function ownerOf(uint256 _tokenId);`があります。これはトークンID（通常は番号）を渡すことで誰がそのトークンIDを所有してくれるか教えてくれるものです。そして３番目の`function transferFrom(address _from, address _to, uint256 _tokenId);`がトークンの転送を可能としてくれます。ERC20も似たような機能があるのですが、３番目の引数として`_tokenId`を指定する点が違いです。「あれ、デジタルアートの情報はどこに置くの？」と疑問に思われた方も多いと思います。いかにERC721を拡張した仕様がありtokenIdを渡したらURLが返ってくることで実現されていますが、これはあくまでオプショナルであり、７２１になければならないというものではありません（そして実際にENSにはありません）。
+
+```
+interface ERC721Metadata /* is ERC721 */ {
+    function name();
+    function symbol();
+    function tokenURI(uint256 _tokenId);
+}
+```
+
+イーサリアム自体はもともと「ワールドコンピューター」などと言われ、皆で価値の移転を共有することを目的に作られたブロックチェーン（分散台帳とも言われます）です。なのでその価値の移転に関係ないロジックを保存するにはガス代（ブロックチェーンの使用料）が高くなるので、メディア系のデータはその他のIPFSといった分散ファイルシステムに格納し、その場所情報（メタデータ）の格納先のみスマートコントラクトで書き込むのが一般的です。
+
+
+### NFTプラットフォームDAO
+
+NFTの売買プラットフォームとして有名なのはCryptoKittiesが開始した2017年に同じく開始した2018年2月にサービスを開始したOpenSeaがあります。
+
+[DappRadarの2022年1月のデータによると](https://dappradar.com/nft/marketplaces)OpenSeaの月間の扱い量は25.6億ドル、2位のゲームプラットフォームであるAxie Infinityと比べても10倍以上の開きがあります。
+
+![NFT marketplace ranking](./assets/003-nft-marketplace.png)
+
+イーサリアム内でのその他のNFTマーケットプレースとなるとSuperRare([2018年4月)](https://www.fisco.co.jp/media/crypto/superrare-about/), Rarible[2020年7月](https://messari.io/asset/rarible/profile), Foundation[2021年2月](https://phemex.com/academy/what-is-foundation)などがあります。Raribleはローンチと同時にガバナンストークンも立ち上げ、SuperRareは[2020年8月](https://medium.com/superrare/announcing-the-rare-curation-token-and-the-superrare-network-390ff60b50a)に$rare トークンを立ち上げました。これは通常のガバナンス以外にもキュレーションの役割も持っています。SuperRareでは社内のメンバーがアーティストの審査を行っています。自社のプラットフォームで扱われる作品の質を保つためではありますが、審査に時間がかかるためアーティストらから不満もあり、招待制システムをとった後発のFoundationの追随を許している原因かもしれません。トークンの発表とともにsuperrareのサイトとは独立した[SuperRare Spaces](https://superrare.com/rare)を発表し、そのサイトの管理を任せる団体を$rareトークンを用いた投票で決める[Space Race](https://medium.com/superrare/getting-the-band-together-cc6ebd3347f9)を行いました。
+
+各社もOpenSeaとのギャップを埋めるためにトークンを活用しているようですがOpenSeaの牙城を崩すまではいっていません。
+OpenSeaに関してはトークン立ち上げよりも[IPOをするのではという憶測](https://bittimes.net/news/118251.html)がありますが、現在のところ未定なです。2020年のクリスマスにはOpenDAOというプロジェクトが[$SOSというトークンが突如現れ、OpenSeaで今まで取引した人たち全てへのトークン配布を発表しました](https://www.theopendao.com/)。Defiサマーの時に行われたSushiSwapによるバンパイアアタックを彷彿させますが、Uniswapをフォークしたサイトを少なくとも立ち上げていた SushiSwapと違い、SOSの場合はトークンしかない状態ですがこんな状態でもトークンの市場価値(マーケットキャップ)が2億ドルまで達成しているところが暗号通貨の怖いところです。
+
+### Metaverse
+
+Decentraland
+
+### CollectorDAO
+
+
 - Rarible DAO
-- NBATopshot
 - Beeple
 - Pfp (Bored Ape, CryptoCorgi, RescueTheMoonCat, etc)
 - Loot
