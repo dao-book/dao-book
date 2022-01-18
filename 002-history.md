@@ -462,7 +462,7 @@ PleasrDAOはDefi関係のプロジェクトのミームアートを作ること�
 
 [当時のことを振り返ったブログの中で](https://pleasr.mirror.xyz/D9wIadL-5EEkt17glTtar21m3RDqfgkhkr__OEE2mOE)PleasrDAOの中心人物として活躍するJamisがいった言葉が印象的です。
 
-````
+```
 There was no plan in place other than: we need this piece.
 
 （結成当初）「この作品が欲しい」という以外特に何も計画していませんでした
