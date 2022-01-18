@@ -449,15 +449,27 @@ OpenSeaに関してはトークン立ち上げよりも[IPOをするのではと
 
 ### Metaverse
 
-Decentraland
+Facebook社が社名をMetaにあらためたことから改めて注目を浴びるメタバースですが、ブロックチェーンとの兼ね合いで取り上げられるのはDecentraland、Sandbox、CryptoVoxelsなどのように土地をNFTトークンとしてユーザーに所有権を切り売りしている場合が多いです。多くのメタバースプラットフォームではその所有地上に建物を建て、イベントを開いたり、またその土地を貸し出すことで利益を得ることなどが可能です。Metaverse プラットフォームの中では[Decentralandが2020年の9月にAragonを用いてDAO化し](https://decentraland.org/blog/announcements/the-decentraland-dao-explained/)、彼らのプロトコルトークンであるMANAを用いて重要事項に対して投票できるようになりました。
+
 
 ### CollectorDAO
 
+NFTの人気が高まるにつれて価格も高騰していき、個人では手が届きにくくなってくるものです。なのでNFTの所有権をDAOに移管し、皆で保有していこうというのはごく自然な流れだと思います。CollectorDAOの走りとしてはWhaleSharkという匿名大手NFTコレクターが自身のコレクションをトークン化した＄WHALEを2020年5月に立ち上げたのがかなり最初の例になると思います([実際のDAO化をアナウンスしたのは同年11月](https://beta.cent.co/WhaleShark/+iv8dk9))。またLAO(Delaware州に存在するlimited liability companyとしてのDAO)を用いたNFTに特化したDAOとして[FlamingoDAOが2020年10月に発足しています](https://medium.com/@FLAMINGODAO/flamingo-dao-an-nft-collective-1de9c85bbe06)。しかしながらCollector DAOを一躍有名にしたのは2021年3月に発足したPleasrDAOでしょう。
 
-- Rarible DAO
-- Beeple
-- Pfp (Bored Ape, CryptoCorgi, RescueTheMoonCat, etc)
-- Loot
+PleasrDAOはDefi関係のプロジェクトのミームアートを作ることで有名になったPplpleasr氏がUniswap のバージョン３を記念して作られた「x*y=k」（トークン交換比率を定める数式）という作品のチャリティーオークションを入札されるために結成されたDAOです。このDAOがなぜ斬新だったかというとDAO自体がオークションの最中に結成されたことでしょう。Pool TogetherというDefiプロジェクトの創業者が[「誰かみんなで入札するためのDAO手取り早く作ってくれないかな？」というツイート](https://twitter.com/lay2000lbs/status/1375195529504829443)を掛け声にオークション開催中の２〜３日の間に310ETH(当時の額で$525,000)を集めたということでしょう。
+
+![](./assets/003-pleasrdao.png)
+
+[当時のことを振り返ったブログの中で](https://pleasr.mirror.xyz/D9wIadL-5EEkt17glTtar21m3RDqfgkhkr__OEE2mOE)PleasrDAOの中心人物として活躍するJamisがいった言葉が印象的です。
+
+````
+There was no plan in place other than: we need this piece.
+
+（結成当初）「この作品が欲しい」という以外特に何も計画していませんでした
+```
+
+PleasrDAOはこの作品を入札するだけにとどまらずEdward Snowdonの「Stay Free」というチャリティーNFTオークションを2,224 ETH (当時の額で$5.5百万ドル)で入札したり、Dogecoinのモデルとして有名な芝犬のオリジナル写真を[1696ETH(当時の額で$4百万ドル)で入札した後、トークン化する](https://www.cnbc.com/2021/09/01/fans-can-buy-a-fraction-of-original-doge-meme-nft-owned-by-pleasrdao.html)など精力的な活動を続けています。
+
 
 ### NFT DAO の種類
 
