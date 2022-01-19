@@ -1,18 +1,27 @@
-日本でのDAO
-- 民法上の組合とコミュニティの二つのヴィークルを使い分ける
+プロセス
+1. コミュニティ概要の決定：ミッション、方針、メンバー、オペレーション
+2. 資金管理
+3. マーケティング
+
+コミュニティ概要
+- ミッション
+- コミュニティ方針：クローズド、オープン
+- メンバー
+- オペレーション
 
 資金調達
-- トークンかNFTか
-- トークン配布
+- 日本でのDAO: 民法上の組合とコミュニティの二つのヴィークルを使い分ける
+- NFTを販売
+- 最終的にトークン配布
 
-コミュニティ管理
-- いいコミュニティを作るには
-- 世界のリーダーインタビュー（多分これは面白い）
+マーケティング
+- Social media, Discord
+- トークンゲートやイベント
 
 ツール
 - お金の管理：Gnosis Safe
 - オフチェーン投票：Snapshot
-- ガバナンス代理：Vote With Tally
-- トークンゲート：Collabland
-- 貢献の可視化：SourceCred,　Coordinape, Dune Analytics
-- All in One: DaoHaus、OpenZepellin Governance
+- トークンゲート：Collabland, MintGate
+- 貢献の可視化：SourceCred
+- 支払い: Coordinape, SuperFluid
+- Tokenissue: DaoHaus、Aragon
