@@ -14,7 +14,7 @@
 
 本執筆に関するコミュニティはDiscordで運営されています。
 
-ぜひご参加ください！ https://discord.gg/Fp29G5cv
+ぜひご参加ください！ https://discord.gg/JfzDNkTPSb
 
 📗📗📗📗📗📗📗📗📗📗📗📗📗📗
 
