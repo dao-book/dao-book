@@ -25,6 +25,14 @@
 - [@kyanagisawa](https://twitter.com/kyanagisawa) - 柳澤国際税務会計事務所代表・税理士
 - [@toshiaki_takase](https://twitter.com/toshiaki_takase) - 株式会社TART(タルト)代表取締役
 
+## DAO BOOK
+
+読みやすいフォーマットで楽しみたい場合、以下のリンクをご活用ください。（今後PDF配布なども計画しています。）
+
+定期的にGithubの内容と同期しています。
+
+https://dao-book.gitbook.io/dao-book/
+
 ---
 
 ## フォーマット
